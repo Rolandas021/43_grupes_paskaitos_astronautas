@@ -1,14 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronautas</title>
+    <style>
+        header,
+        main,
+        footer { 
+            width 800px; 
+            margin-left: calc((100% - 800px) / 2);
+        }
+
+        header{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: space-between;
+            background-color: pink; 
+        }
+
+        img{}
+
+        nav{
+            background-color: yellowgreen;
+        }
+
+        a:last-child{
+            margin-right: 0;
+        }
+
+        a:nth-child(2n+1){
+            background-color: aqua;
+        }
+
+        a{
+            margin-right: 40px;
+        }
+
+        main{
+            background-color: red; 
+        }
+        
+        footer{
+            background-color: orangered; 
+        }
+    </style>
 </head>
 
 <body>
-    CONTENT
+    <header><img src="./Logo.png" alt="Logo">
+        <nav>
+            <a href="#">A</a>
+            <a href="#">B</a>
+            <a href="#">C</a>
+            <a href="#">D</a>
+            <a href="#">E</a>
+            <a href="#">F</a>
+            <a href="#">G</a>
+
+ 
+        </nav>
+    </header>    
+    <main>MAIN</main>
+    <footer>FOOTER</footer>
 </body>
 
 </html>
